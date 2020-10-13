@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <base target="_top">
+    <h1>ドレス硬度蓄積シート</h1>
+<title>ドレス硬度蓄積入力フォーム</title>
+<meta http-equiv="content-type" charset="utf-8">
+</head>
+<body>
+    <h2>ドレス硬度のデータ蓄積用となります。LotNo.並びに硬度データは半角で入力お願い致します。
+
+    </h2>
+    <form method="post" action="https://script.google.com/macros/s/AKfycbwRsdqigMhSauQVfYl-DWQ8HP-ceOJBkGFqL9Lma7NSkInQOaIo/exec">
+<table>
+<tr>
+    <td align="right"><b> メーカー：</b></td>
+    <td><input type="checkbox" name="maker" value="東亜研磨材">東亜研磨材</td>
+    <td><input type="checkbox" name="maker" value="シンコー">シンコー</td>
+</tr>
+<tr>
+    <td align="right"><b> LotNo.：</b></td>
+    <td><input type="text" name="number" size="30" maxlength="18"></td>
+</tr>
+<tr>
+    <td align="right"><b> Hrc1：</b></td>
+    <td><input type="text" name="hrc1" size="30" height="40px" maxlength="18"></td>
+  </tr>
+  <tr>
+    <td align="right"><b> Hrc2：</b></td>
+    <td><input type="text" name="hrc2" size="30" maxlength="10"></td>
+  </tr>
+  <tr>
+    <td align="right"><b> Hrc3：</b></td>
+    <td><input type="text" name="hrc3" size="30" maxlength="10"></td>
+  </tr>
+  <tr>
+    <td align="right"><b> Hrc4：</b></td>
+    <td><input type="text" name="hrc4" size="30" maxlength="10"></td>
+  </tr>
+    <tr>
+    <td align="right"><b> Hrc5：</b></td>
+    <td><input type="text" name="hrc5" size="30" maxlength="10"></td>
+  </tr>
+</table>
+<br>
+<input style="cursor:pointer" type="submit" value="送信する">
+<br>
+
+</form>
+</body>
+<style>
+table{
+    font-size: 28px;
+}
+input{
+    height: 40px;
+}
+</style>
+</html>
+
